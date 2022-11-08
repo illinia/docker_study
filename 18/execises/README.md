@@ -44,3 +44,7 @@
 
 ``docker container run -d -p 8090:80 -v "$(pwd)/config/dev:/config-override" -e CONFIG_SOURCE_PATH="/config-override/application.properties" diamol/ch18-image-of-the-day``
 
+``docker container rm -f $(docker container ls -aq)``
+
+``docker-compose up -d``
+
